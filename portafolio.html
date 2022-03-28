@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Portafolio</title>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">            
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+                        <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                        <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                    </svg>
+                    <strong class="ms-2">Album</strong></a>
+                <!-- End Logo -->    
+                <!-- Button Responsive -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- End Button Responsive -->
+                <!-- Links -->
+                <section class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-itemactive">
+                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portafolio</a>
+                        </li>    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>                   
+                    </ul>
+                </section>
+                <!-- End Links -->
+            </div>
+        </nav>
+        <!-- End NavBar -->
+    </header>
+    <!-- End Header -->
+    <!-- Banner Rotativo -->
+    <section id="banner-rotativo" class="carousel slide" data-bs-ride="carousel">
+        <!-- Banner Container -->
+        <article class="carousel-inner">
+            <figure class="carousel-item active">
+                <img src="https://fakeimg.pl/500x200/" class="d-block w-100" alt="Banner 1">
+            </figure>
+            <figure class="carousel-item">
+                <img src="https://fakeimg.pl/500x200/" class="d-block w-100" alt="Banner 2">
+            </figure>
+            <figure class="carousel-item">
+                <img src="https://fakeimg.pl/500x200/" class="d-block w-100" alt="Banner 3">
+            </figure>
+        </article>
+        <!-- End Banner Container -->
+        <!-- Buttons Rotativos -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#banner-rotativo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#banner-rotativo" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <!-- End Buttons Rotativos -->
+    </section>
+    <!-- End Banner Rotativo -->
+
+    <main class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4 pb-5 pt-5">
+            <div class="col">
+            <div class="card">
+                <img src="https://fakeimg.pl/150/" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a href="#">Veja mais!</a>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+                <img src="https://fakeimg.pl/150/" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a href="#">Veja mais!</a>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card">
+                <img src="https://fakeimg.pl/150/" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                <a href="#">Veja mais!</a>
+                </div>
+            </div>
+            </div>            
+        </div>
+    </main>
+
+    <footer class="text-white bg-dark">
+        <div class="row pt-5 pb-5">
+            <section class="col-md-5">
+                <h5>Album</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active text-white">Baby</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active text-white">Models</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active text-white">Family</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="col-md-5">
+                <h5>Contato</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="tel:+5513111111111">Tel: (13) 9 9999-9999</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" target=_blank href="https://api.whatsapp.com/send?phone=55139999999999&text=Quero%20saber%20do%20curso">WhatsApp: (13) 9 9999-9999</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="col-md-2">
+                <a class="nav-link text-white" href="#">Voltar ao Topo</a>
+            </section>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
